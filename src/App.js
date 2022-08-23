@@ -21,7 +21,7 @@ const App = () =>  {
             <ul className="header">
 
 
-                
+                {/*exact does not work in new version properly*/}
                 <li><NavLink to = "/">Home</NavLink></li>
                 <li><NavLink to = "/SEPractice">Select the Practice</NavLink></li>
                 <li><NavLink to = "/SubmitArticle">Submit an Article</NavLink></li>
